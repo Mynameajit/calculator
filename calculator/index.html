@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcuter</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <main>
+        <div  class="box">
+            <input id="res" type="text">
+            <div class="box1">
+
+                <button onclick="cle()" id="clear">Clear</button>
+                <button onclick="remove()" id="remove">X</button>
+                <button onclick="val('/')">/</button>
+                <!-- <button></button> -->
+            </div>
+            <div class="box2">
+                <button onclick="val(9)">9</button>
+                <button onclick="val(8)">8</button>
+                <button onclick="val(7)">7</button>
+                <button onclick="val('*')">*</button>
+            </div>
+            <div class="box3">
+                <button onclick="val(6)">6</button>
+                <button onclick="val(5)">5</button>
+                <button onclick="val(4)">4</button>
+                <button onclick="val('-')">-</button>
+            </div>
+            <div class="box4">
+                <button onclick="val(3)">3</button>
+                <button onclick="val(2)">2</button>
+                <button onclick="val(1)">1</button>
+                <button onclick="val('+')" id="add">+</button>
+            </div>
+            <div class="box5">
+                <button onclick="val(0)">0</button>
+                <button onclick="val('.')">.</button>
+                <button onclick="result()" id="result">=</button>
+            </div>
+        </div>
+
+
+
+    </main>
+   
+<script src="script.js"></script>
+</body>
+
+</html>

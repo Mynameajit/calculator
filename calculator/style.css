@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gray;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+
+
+#res {
+    text-align: right;
+    box-shadow: 0.3px 0.3px 6px 3px rgb(130, 129, 129);
+    font-size: 30px;
+    border-style: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 2px 0px;
+    margin: 4px 0px;
+    height: 54px;
+    width: 242px;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    color: rgb(184, 176, 255);
+    background-color: rgb(60, 60, 44);
+     }
+
+.box {
+    background-color: rgb(42, 42, 49);
+    border: 2px solid rgb(41, 41, 41);
+    height: 310px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 9px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 4px  rgb(57, 56, 56);
+
+}
+
+.cantainer,
+button {
+    box-shadow: 0px 0.5px 2px 2.4px rgb(86, 86, 147);
+    width: 19%;
+    height: 10%;
+    margin: 6px 3px;
+    padding: 7px 0.3px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: rgb(62, 62, 71);
+    color: rgb(158, 201, 254);
+}
+
+#add {
+    background-color: rgb(42, 160, 12);
+}
+
+#clear {
+    padding: 10px 54px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 58, 58);
+
+}
+#remove{
+    color: red;
+}
+
+#result {
+
+    padding: 11px 54px;
+    color: white;
+    background-color: rgb(52, 92, 212);
+}
